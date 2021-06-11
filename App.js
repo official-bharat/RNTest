@@ -11,8 +11,14 @@ const App = () => {
     });
   }, []);
   return (
-    <View style={{justifyContent: 'center', alignItems: 'center', flex: 1}}>
-      <Text>Hello World</Text>
+    <View
+      style={{
+        justifyContent: 'center',
+        alignItems: 'center',
+        flex: 1,
+        backgroundColor: 'black',
+      }}>
+      <Text style={{color: '#fff'}}>Hello World My Name is Bharat</Text>
     </View>
   );
 };
